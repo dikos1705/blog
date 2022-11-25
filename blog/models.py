@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+testvarivabel = 5
+max(testvarivabel, 10)
+
 STATUS = (
     (0,"Draft"),
     (1,"Publish")
